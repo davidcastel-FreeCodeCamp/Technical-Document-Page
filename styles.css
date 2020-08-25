@@ -1,0 +1,14 @@
+#main-doc header {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+main {
+  margin-left: 200px;
+  z-index: 5;
+}
+
+nav {
+  /*   width: 300px; */
+  height: 100%;
+}
