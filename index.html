@@ -7,12 +7,107 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
     <title>Document</title>
 </head>
 
 <body>
 
+    <header id="header">
+        <nav id="nav-bar" class="position-fixed">
+            <header id="header">Coding examples</header>
+            <div><img src="" alt="" id="header-img"></div>
+            <div>
+                <ul>
+                    <li><a class="nav-link" href="#java">Java</a></li>
+                    <li><a class="nav-link" href="#javascript">JavaScript</a></li>
+                    <li><a class="nav-link" href="#python">Python</a></li>
+                    <li><a class="nav-link" href="#c">C</a></li>
+                    <li><a class="nav-link" href="#html">HTML</a></li>
+                    <li><a class="nav-link" href="#css">CSS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
+    <main id="main-doc">
+        <!-- Java -->
+        <section class="main-section">
+            <header id="java">Java</header>
+            <p>This section is about Java</p>
+            <p>We will look at a sample of code for reference</p>
+            <code>
+                console.log("Hello World");
+            </code>
+        </section>
+        <!-- Javascript -->
+        <section class="main-section">
+            <header id="javascript">JavaScript</header>
+            <p>This section is about JavaScript</p>
+            <p>We will look at a sample of code for reference</p>
+            <code>
+                System.out.println("Hello World");
+            </code>
+            <p>Here is for those who want to try JavaScript</p>
+            <figure class="text-center">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PkZNo7MFNFg"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </figure>
+        </section>
+        <!-- Python -->
+        <section class="main-section">
+            <header id="python">Python</header>
+            <p>This section is about Python</p>
+            <p>We will look at a sample of code for reference</p>
+            <code>
+                print("Hello World")
+            </code>
+        </section>
+        <!-- C -->
+        <section class="main-section">
+            <header id="c">C</header>
+            <p>This section is about C</p>
+            <p>We will look at a sample of code for reference</p>
+            <code>
+                printf("Hello World");
+                return 0
+            </code>
+        </section>
+        <!-- HTML -->
+        <section class="main-section">
+            <header id="html">HTML</header>
+            <p>This section is about HTML</p>
+            <p>We will look at a sample of code for reference</p>
+            <code>
+                <h1>Hello World</h1>
+            </code>
+            <p>This is an exmaple of a form:</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email-input" class="h4">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email here ..."
+                        required>
+                </div>
+                <input type="submit" id="submit" class="btn btn-primary">
+            </form>
+        </section>
+        <!-- CSS -->
+        <section class="main-section">
+            <header id="css">CSS</header>
+            <p>This section is about CSS</p>
+            <p>We will look at a sample of code for reference</p>
+            <p>Note: CSS does not have code similar to the one above but it has properties</p>
+            <ul>
+                <li>width: 100px;</li>
+                <li>height: 100px;</li>
+                <li>color: red;</li>
+                <li>background-color: blue;</li>
+                <li>font-size: 20px;</li>
+            </ul>
+        </section>
+    </main>
 
 
     <!-- Bootstrap JS -->
